@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84077AB0206CBD2C00FDFF48 /* XNotiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84077AAF206CBD2C00FDFF48 /* XNotiViewController.m */; };
 		843A889620633D94000D9DA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843A889520633D94000D9DA5 /* AppDelegate.m */; };
 		843A889920633D94000D9DA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843A889820633D94000D9DA5 /* ViewController.m */; };
 		843A889C20633D94000D9DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A889A20633D94000D9DA5 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84077AAE206CBD2C00FDFF48 /* XNotiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XNotiViewController.h; sourceTree = "<group>"; };
+		84077AAF206CBD2C00FDFF48 /* XNotiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XNotiViewController.m; sourceTree = "<group>"; };
 		843A889120633D94000D9DA5 /* testDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843A889420633D94000D9DA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		843A889520633D94000D9DA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				843A889520633D94000D9DA5 /* AppDelegate.m */,
 				843A889720633D94000D9DA5 /* ViewController.h */,
 				843A889820633D94000D9DA5 /* ViewController.m */,
+				84077AAE206CBD2C00FDFF48 /* XNotiViewController.h */,
+				84077AAF206CBD2C00FDFF48 /* XNotiViewController.m */,
 				843A889A20633D94000D9DA5 /* Main.storyboard */,
 				843A889D20633D94000D9DA5 /* Assets.xcassets */,
 				843A889F20633D94000D9DA5 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843A889920633D94000D9DA5 /* ViewController.m in Sources */,
+				84077AB0206CBD2C00FDFF48 /* XNotiViewController.m in Sources */,
 				843A88A420633D94000D9DA5 /* main.m in Sources */,
 				843A889620633D94000D9DA5 /* AppDelegate.m in Sources */,
 			);
