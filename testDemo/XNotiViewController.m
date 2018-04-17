@@ -41,6 +41,11 @@
         [kNotificationCenter postNotificationName:@"testNotification" object:nil userInfo:nil];
     });
 //    NSNotificationQueue
+    
+    //方式二
+    [kNotificationCenter addObserverForName:@"testNotification" object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
+        NSLog(@"block当前线程--%@",[NSThread currentThread]);
+    }];
 }
 
 - (void)handleNoti:(NSNotification *)noti{
